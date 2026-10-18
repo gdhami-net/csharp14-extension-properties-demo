@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- This project must NOT build. check.sh asserts the exact error. -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Orders\Orders.csproj" />
+  </ItemGroup>
+
+</Project>
